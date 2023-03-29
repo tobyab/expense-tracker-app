@@ -14,6 +14,7 @@
 		DAF5D8E329D4BA40004C0825 /* expense_tracker_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF5D8E229D4BA40004C0825 /* expense_tracker_appTests.swift */; };
 		DAF5D8ED29D4BA40004C0825 /* expense_tracker_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF5D8EC29D4BA40004C0825 /* expense_tracker_appUITests.swift */; };
 		DAF5D8EF29D4BA40004C0825 /* expense_tracker_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF5D8EE29D4BA40004C0825 /* expense_tracker_appUITestsLaunchTests.swift */; };
+		DAF5D8FC29D4BA6A004C0825 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF5D8FB29D4BA6A004C0825 /* RowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DAF5D8E829D4BA40004C0825 /* expense-tracker-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "expense-tracker-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF5D8EC29D4BA40004C0825 /* expense_tracker_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expense_tracker_appUITests.swift; sourceTree = "<group>"; };
 		DAF5D8EE29D4BA40004C0825 /* expense_tracker_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expense_tracker_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAF5D8FB29D4BA6A004C0825 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				DAF5D8D329D4BA3F004C0825 /* ContentView.swift */,
 				DAF5D8D529D4BA40004C0825 /* Assets.xcassets */,
 				DAF5D8D729D4BA40004C0825 /* Preview Content */,
+				DAF5D8FB29D4BA6A004C0825 /* RowView.swift */,
 			);
 			path = "expense-tracker-app";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAF5D8D429D4BA3F004C0825 /* ContentView.swift in Sources */,
+				DAF5D8FC29D4BA6A004C0825 /* RowView.swift in Sources */,
 				DAF5D8D229D4BA3F004C0825 /* expense_tracker_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
